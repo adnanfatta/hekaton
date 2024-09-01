@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .navbar-item {
+
+    height: 100px;
+    width: 100%;
+    background-color: red;
+
+    .navbar {
+        display: flex;
+
+        .form {
+            display: flex;
+            list-style-type: none;
+
+            li {
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+            }
+        }
+    }
+} */
+
+.navbar {
+
+    display: flex !important;
+    margin: auto !important;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+    .container-one {
+        height: 400px;
+
+        h1 {
+            margin-top: 5px;
+
+            p {
+                margin-top: 5px;
+            }
+        }
+
+        .btn {
+            width: 200px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+        }
+    }
+
+    .container-img {
+        width: 400px;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+.mid-container {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.new-container {
+    display: flex;
+    margin-top: 40px;
+    margin-left: 400px;
+    gap: 40px;
+
+    .heading {
+        width: 160px;
+        justify-content: center;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 40px;
+        background-color: greenyellow;
+        height: 100%;
+        display: flex;
+    }
+
+}
+
+.next-container {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+
+    .container-one {
+        height: 300px;
+        width: 600px;
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgba(228, 209, 209, 0.226);
+        border-radius: 30px;
+        align-items: baseline;
+        
+        .heading {
+            h3 {
+                width: 200px;
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                border-radius: 5px;
+                margin-top: -10px;
+                background-color: greenyellow;
+
+            }
+        }
+    }
+}
